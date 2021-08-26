@@ -10,8 +10,17 @@ desc: 'no time like the present Ibrahim'
 	<title>{{ title }}</title>
 	<meta name="description" content="{{ desc }}">
 	<link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
-	<link href="https://unpkg.com/tailwindcss@^2/dist/components.min.css" rel="stylesheet" />
-	<link href="https://unpkg.com/tailwindcss@^2/dist/utilities.min.css" rel="stylesheet" />
+	<style>
+		.grid {
+			display: grid;
+		}
+		.place-items-center {
+			place-content: center;
+		}
+		main {
+			height: 50vh;
+		}
+	</style>
 </head>
 <body class="grid place-items-center">
 	<main>
